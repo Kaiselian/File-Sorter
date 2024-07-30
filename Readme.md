@@ -36,6 +36,7 @@ The File Sorter is a simple Python script that organizes files in a specified di
 
 ## Example
 Suppose you have a directory with the following files:
+    
     ```bash
     /example_directory
         - document.pdf
@@ -44,17 +45,18 @@ Suppose you have a directory with the following files:
         - archive.zip
 
 After running the script and entering the path to /example_directory, the directory will be organized as follows:
+
     ```bash
     /example_directory
-        /pdf
-            - document.pdf
-        /jpg
-            - photo.jpg
-        /py
-            - script.py
-        /zip
-            - archive.zip
-            
+    /pdf
+        - document.pdf
+    /jpg
+        - photo.jpg
+    /py
+        - script.py
+    /zip
+        - archive.zip
+
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome!
 
